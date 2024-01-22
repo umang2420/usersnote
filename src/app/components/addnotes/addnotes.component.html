@@ -1,0 +1,17 @@
+<form [formGroup]="addForm" class="example-form"(ngSubmit)="submitData()">
+    <mat-form-field class="example-full-width">
+        <mat-label >Enter Name</mat-label>
+        <input matInput type="text" formControlName="name">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <mat-label >Enter Text</mat-label>
+        <textarea matInput formControlName="text"></textarea>
+    </mat-form-field>
+    <div class="example-label"></div>
+    <div class="example-button-row">
+        <button mat-raised-button color="accent" type="submit">Save</button>
+        <button mat-raised-button color="primary" type="button" (click)="update()">update</button>
+        <button mat-raised-button color="warn" type="button"(click)="clear()">Delete</button>        
+    </div>
+</form>
+

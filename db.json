@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title"
+    },
+    {
+      "id": "2",
+      "title": "another title"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userPassword": "123",
+      "Name": "abc",
+      "UserName": "JoneAbc"
+    },
+    {
+      "id": "1848",
+      "Name": "Umang Garg",
+      "UserName": "UMANG_GARG",
+      "userPassword": "123456789"
+    },
+    {
+      "id": "293e",
+      "Name": "harry",
+      "UserName": "harry_098",
+      "userPassword": "0987654321"
+    },
+    {
+      "id": "65f9",
+      "Name": "abc",
+      "UserName": "abc_098",
+      "userPassword": "aaaaaa"
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode",
+      "id": "376b"
+    }
+  ],
+  "userNote": [
+    {
+      "name": "umang",
+      "text": "lorem",
+      "id": "32aa"
+    },
+    {
+      "id": "6918",
+      "name": "HARRY",
+      "text": "lorem",
+      "userId": "1848"
+    }
+  ]
+}
